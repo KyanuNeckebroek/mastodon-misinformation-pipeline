@@ -1,0 +1,46 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.elc
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+
+# === Jupyter Notebooks & Checkpoints ===
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Optioneel: negeer grote plot-exports die lokaal gegenereerd worden
+.local_history
+
+# === Data & Grote Bestanden ===
+# Als je ruwe data lokaal wilt houden en niet op GitHub wilt (aanbevolen voor grote datasets)
+data/raw/
+data/processed/
+# Wil je de hele data map blokkeren behalve de mappenstructuur? Gebruik dan dit:
+# data/*
+# !data/.gitkeep
+
+# === IDE's en Editors ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === Logs en Tijdelijke bestanden ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Besturingssysteem ===
+.DS_Store
+Thumbs.dbgit 
+results/bert/best_model/
