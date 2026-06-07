@@ -27,24 +27,27 @@ Projectstructuur
 
 De repository is als volgt georganiseerd:
 
-├── data/ Lokale data-opslag (genegeerd door Git)
-│ ├── mastodon/ Ruwe Mastodon API-data
-│ ├── raw/ Ongestructureerde/ruwe datasets
-│ └── processed/ Gepreprocessde datasets voor training
-├── notebooks/ Jupyter Notebooks voor exploratieve data-analyse (EDA)
-├── results/ Resultaten en opgeslagen model-metrics
-│ ├── bert/ BERT-resultaten en gewichten (lokale opslag)
-│ ├── figures/ Gegenereerde grafieken en plots
-│ ├── lr/ Logistic Regression resultaten
-│ └── svm/ SVM resultaten
-├── src/ Broncode van de pipeline
-│ ├── preprocessing/ Scripts voor data cleaning en tokenization
-│ ├── models/ Trainingsscripts voor LR, SVM en BERT
-│ └── evaluation/ Evaluatie- en visualisatiescripts
-├── tests/ Unit tests voor de verschillende modules
-├── requirements.txt Vereiste Python-bibliotheken
-├── run_pipeline.py Hoofdscript om de pipeline te starten
-└── setup.py Setup script voor lokale installatie
+```text
+.
+├── data/
+│   ├── mastodon/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── results/
+│   ├── bert/
+│   ├── figures/
+│   ├── lr/
+│   └── svm/
+├── src/
+│   ├── preprocessing/
+│   ├── models/
+│   └── evaluation/
+├── tests/
+├── requirements.txt
+├── run_pipeline.py
+└── setup.py
+```
 
 Opmerking: Grote datasets (map `data/`) en getrainde deep learning-gewichten (bijvoorbeeld `results/bert/best_model/`) zijn uitgesloten van de Git-repository via `.gitignore`.
 
