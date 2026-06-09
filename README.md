@@ -113,11 +113,14 @@ Unit tests bevinden zich in de map `tests/`. Voer ze uit met:
 pytest tests/
 ```
 
-Licentie en contact
+
 
 Auteur: Kyanu Neckebroek
+
 Instelling: Hogeschool Gent (HOGENT)
+
 Academiejaar: 2025-2026
+
 Opleiding: Bachelor in de Toegepaste Informatica
 
-Dit project is ontwikkeld in het kader van een bachelorproef en publiek beschikbaar gesteld voor academische transparantie en reproduceerbaarheid.
+
